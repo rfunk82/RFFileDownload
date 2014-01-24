@@ -21,6 +21,7 @@
 		C7175EDD18930F2700B60498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7175EBF18930F2700B60498 /* UIKit.framework */; };
 		C7175EE518930F2800B60498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7175EE318930F2800B60498 /* InfoPlist.strings */; };
 		C7175EE718930F2800B60498 /* RFFileDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7175EE618930F2800B60498 /* RFFileDownloadTests.m */; };
+		C7175EF218930F3E00B60498 /* RFFileDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = C7175EF118930F3E00B60498 /* RFFileDownload.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7175EE218930F2800B60498 /* RFFileDownloadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFFileDownloadTests-Info.plist"; sourceTree = "<group>"; };
 		C7175EE418930F2800B60498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7175EE618930F2800B60498 /* RFFileDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFFileDownloadTests.m; sourceTree = "<group>"; };
+		C7175EF018930F3E00B60498 /* RFFileDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFFileDownload.h; sourceTree = "<group>"; };
+		C7175EF118930F3E00B60498 /* RFFileDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFFileDownload.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C7175EAF18930F2700B60498 = {
 			isa = PBXGroup;
 			children = (
+				C7175EF018930F3E00B60498 /* RFFileDownload.h */,
+				C7175EF118930F3E00B60498 /* RFFileDownload.m */,
 				C7175EC118930F2700B60498 /* RFFileDownload */,
 				C7175EE018930F2700B60498 /* RFFileDownloadTests */,
 				C7175EBA18930F2700B60498 /* Frameworks */,
@@ -252,6 +257,7 @@
 				C7175ED218930F2700B60498 /* ViewController.m in Sources */,
 				C7175ECC18930F2700B60498 /* AppDelegate.m in Sources */,
 				C7175EC818930F2700B60498 /* main.m in Sources */,
+				C7175EF218930F3E00B60498 /* RFFileDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

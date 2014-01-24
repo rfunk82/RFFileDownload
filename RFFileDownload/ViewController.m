@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RFFileDownload.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSData *testData = [RFFileDownload downloadFileAtURL:@"http://www.education.gov.yk.ca/pdf/pdf-test.pdf"];
+    NSLog(@"Data: %@",testData);
 }
 
 - (void)didReceiveMemoryWarning
